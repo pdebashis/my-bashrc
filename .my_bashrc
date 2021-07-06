@@ -1,0 +1,30 @@
+#--- [ ENABLE USING BASHRC ] ---------------------------
+#if [ -f /home/user/.my_bashrc ]; then 
+#. /home/user/.my_bashrc 
+#fi 
+ 
+#--- [ UNIX COMMANDS ] ---------------------------
+alias xxtree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias xxneverhere="history -c && history -w"
+alias xxips='ifconfig | grep -E `xxregxip`'
+alias vi='vim'
+alias rm='rm -vrf --preserve-root'
+alias ..='cd ..'
+alias ll='ls -l'
+alias lt='ls -ltrth'
+alias tailf='tail -f'
+
+#--- [ Monitoring ] ---------------------------
+alias cpu="grep 'cpu ' /proc/stat | awk '{usage=(\$2+\$4)*100/(\$2+\$4+\$5)} END {print usage}' | awk '{printf(\"%.1f\n\", \$1)}'"
+
+#--- [ Unix Programs ] ---------------------------
+alias record-gif="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 out.gif"
+
+#--- [ ENV Variables ] ---------------------------
+export TZ=Asia/Rangoon 
+export MALLOC_ARENA_MAX=2 
+export JAVA_HOME=/home/user/install/thirdparty/jdk1.8.0_211 
+export JRE_HOME=/home/user/install/thirdparty/jdk1.8.0_211/jre 
+ 
+#--- [ ADD TO PATH ] ---------------------------
+export PATH=$PATH:$JAVA_HOME/bin
