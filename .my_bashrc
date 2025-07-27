@@ -2,26 +2,21 @@
 alias xxtree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias xxneverhere="history -c && history -w"
 alias xxips='ifconfig | grep -E `xxregxip`'
-alias vi='vim'
+# alias vi='vim' <works by default>
 alias rm='rm -vrf --preserve-root'
-alias ..='cd ..'
-alias ll='ls -l'
+# alias ..='cd ..' <works by default>
+# alias ll='ls -l' <works by default>
 alias tailf='tail -f'
-alias my_vnc='x0vncserver -display :0 -passwordfile ~/.vnc/passwd'
+alias my_git='cd C:\Users\<>\Documents\Git\'
 
 #--- [ DYSLEXIA ] ------------------------------
 alias mdkir='mkdir'
 
 #--- [ ENV Variables ] -------------------------
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 
 #--- [ ADD TO PATH ] ---------------------------
-export PATH=$JAVA_HOME/bin:$PATH
 
 #--- [ USEFUL TOOLS ] --------------------------
 alias my_gif_5="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 5 out.gif"
 alias my_gif_10="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 10 out.gif"
 
-#--- [ RUBY SETUP ] --------------------------
-export GEM_HOME=$HOME/gems'
-export PATH=$HOME/gems/bin:$PATH'
