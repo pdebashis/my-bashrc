@@ -7,7 +7,7 @@ alias rm='rm -vrf --preserve-root'
 # alias ..='cd ..' <works by default>
 # alias ll='ls -l' <works by default>
 alias tailf='tail -f'
-alias my_git='cd C:\Users\<>\Documents\Git\'
+alias mygit='cd C:\Users\<>\Documents\Git\'
 
 #--- [ DYSLEXIA ] ------------------------------
 alias mdkir='mkdir'
