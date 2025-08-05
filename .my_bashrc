@@ -13,10 +13,11 @@ alias mygit='cd C:\Users\<>\Documents\Git\'
 alias mdkir='mkdir'
 
 #--- [ ENV Variables ] -------------------------
+export VISUAL="vim"
 
 #--- [ ADD TO PATH ] ---------------------------
 
 #--- [ USEFUL TOOLS ] --------------------------
-alias my_gif_5="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 5 out.gif"
-alias my_gif_10="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 10 out.gif"
+alias gif_5="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 5 out.gif"
+alias gif_10="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 10 out.gif"
 
