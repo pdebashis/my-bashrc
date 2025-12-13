@@ -7,7 +7,11 @@ alias rm='rm -vrf --preserve-root'
 # alias ..='cd ..' <works by default>
 # alias ll='ls -l' <works by default>
 alias tailf='tail -f'
-alias mygit='cd C:\Users\<>\Documents\Git\'
+
+#-- [TELEPORT PATHS] --------------------------
+alias mygit='cd /mnt/c/Users/<>/Documents/Github\'
+alias myonedrive=''
+alias mydownloads='cd /mnt/c/Users/<>/Downloads/Github\'
 
 #--- [ DYSLEXIA ] ------------------------------
 alias mdkir='mkdir'
