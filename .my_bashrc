@@ -5,9 +5,9 @@ alias rm='rm -vrf --preserve-root'
 alias tailf='tail -f'
 
 #-- [TELEPORT PATHS] --------------------------
-alias mygit='cd /mnt/c/Users/<>/Documents/Github\'
-alias myonedrive=''
-alias mydownloads='cd /mnt/c/Users/<>/Downloads/Github\'
+alias mygit='cd /mnt/c/Users/<>/Documents/Github/'
+alias myonedrive='cd '
+alias mydownloads='cd /mnt/c/Users/<>/Downloads/Github/'
 
 #--- [ DYSLEXIA ] ------------------------------
 alias mdkir='mkdir'
