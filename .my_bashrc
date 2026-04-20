@@ -1,7 +1,6 @@
 #--- [ UNIX COMMANDS ] -------------------------
 alias xxtree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias xxneverhere="history -c && history -w"
-alias xxips='ifconfig | grep -E `xxregxip`'
 alias rm='rm -vrf --preserve-root'
 alias tailf='tail -f'
 
