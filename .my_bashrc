@@ -2,10 +2,7 @@
 alias xxtree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias xxneverhere="history -c && history -w"
 alias xxips='ifconfig | grep -E `xxregxip`'
-# alias vi='vim' <works by default>
 alias rm='rm -vrf --preserve-root'
-# alias ..='cd ..' <works by default>
-# alias ll='ls -l' <works by default>
 alias tailf='tail -f'
 
 #-- [TELEPORT PATHS] --------------------------
@@ -16,12 +13,9 @@ alias mydownloads='cd /mnt/c/Users/<>/Downloads/Github\'
 #--- [ DYSLEXIA ] ------------------------------
 alias mdkir='mkdir'
 
+
 #--- [ ENV Variables ] -------------------------
 export VISUAL="vim"
 
 #--- [ ADD TO PATH ] ---------------------------
-
-#--- [ USEFUL TOOLS ] --------------------------
-alias gif_5="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 5 out.gif"
-alias gif_10="giph -s -l -c 1,1,1,0.3 -b 5 -p -5 -t 10 out.gif"
 
